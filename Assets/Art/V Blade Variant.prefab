@@ -24,7 +24,7 @@ PrefabInstance:
     - target: {fileID: 6577644302283058348, guid: e3101439804568b42ba86862fff53260,
         type: 3}
       propertyPath: m_Name
-      value: V Blade
+      value: V Blade Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6577644302283058344, guid: e3101439804568b42ba86862fff53260,
         type: 3}
