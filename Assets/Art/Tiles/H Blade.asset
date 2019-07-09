@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389b2cca584609f46a21cd3ac62184ee, type: 3}
+  m_Name: H Blade
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: 3309184783438255203, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  colliderType: 0
+  Ledge: {fileID: 8226936365863647394, guid: 4bbb9152fcb76be4fb916b0daf35ed60, type: 3}
+  OffSet: {x: 0, y: 0}

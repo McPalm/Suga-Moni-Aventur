@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SprotesAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+    totalSpriteSurfaceArea: 22528
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3583726228873561709, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -7491073141200023098, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -8852161630047263971, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -8484399841545974201, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -5031716461212410425, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -2541815824156933277, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 6197899566825367414, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -549667727081888028, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 4660602491366940973, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 3309184783438255203, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -8520065091954934132, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 4682840869578940557, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -959987674351300434, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 4354901855209933267, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 3736020624977828903, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -5104086339848338607, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -6512200962216256610, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 4291171711556564048, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -758130478715321031, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -3602673242976698618, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: -5241425270578151935, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 8489925826781864166, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - _implying_art_13
+  - _implying_art_12
+  - _implying_art_11
+  - _implying_art_10
+  - _implying_art_17
+  - _implying_art_16
+  - _implying_art_15
+  - _implying_art_14
+  - _implying_art_20
+  - _implying_art_19
+  - _implying_art_21
+  - _implying_art_18
+  - _implying_art_0
+  - _implying_art_1
+  - _implying_art_2
+  - _implying_art_3
+  - _implying_art_4
+  - _implying_art_5
+  - _implying_art_6
+  - _implying_art_7
+  - _implying_art_8
+  - _implying_art_9
+  m_Tag: SprotesAtlas
+  m_IsVariant: 0
