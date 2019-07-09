@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
-    totalSpriteSurfaceArea: 22528
+    totalSpriteSurfaceArea: 24576
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -54,6 +54,8 @@ SpriteAtlas:
   - {fileID: -2541815824156933277, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
   - {fileID: 6197899566825367414, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
   - {fileID: -549667727081888028, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 2094213679039352509, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
+  - {fileID: 1898348647417911812, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
   - {fileID: 4660602491366940973, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
   - {fileID: 3309184783438255203, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
   - {fileID: -8520065091954934132, guid: 93caf2d87b6fabb45a0152c6bda3e6fd, type: 3}
@@ -77,6 +79,8 @@ SpriteAtlas:
   - _implying_art_16
   - _implying_art_15
   - _implying_art_14
+  - _implying_art_22
+  - _implying_art_23
   - _implying_art_20
   - _implying_art_19
   - _implying_art_21

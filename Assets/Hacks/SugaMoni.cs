@@ -16,6 +16,14 @@ public class SugaMoni : Mobile, IControllable
 
     int cyoteTime = 5;
 
+    new void Start()
+    {
+        base.Start();
+        var spawn = FindObjectOfType<Spawn>();
+        if (spawn)
+            transform.position = spawn.transform.position;
+    }
+
     // Update is called once per frame
     new void FixedUpdate()
     {

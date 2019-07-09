@@ -68,6 +68,12 @@ TextureImporter:
   - first:
       213: -8520065091954934132
     second: _implying_art_21
+  - first:
+      213: 2094213679039352509
+    second: _implying_art_22
+  - first:
+      213: 1898348647417911812
+    second: _implying_art_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -637,6 +643,48 @@ TextureImporter:
       bones: []
       spriteID: 6e9a22ab4c3c83b4c85e34e973a0e5f5
       internalID: -8520065091954934132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _implying_art_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39d64c81f11a3948a917c0a64f62613
+      internalID: 2094213679039352509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _implying_art_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d03aaeddc0ba1b4fb2f00a13f499864
+      internalID: 1898348647417911812
       vertices: []
       indices: 
       edges: []
