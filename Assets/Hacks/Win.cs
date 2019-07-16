@@ -7,6 +7,8 @@ public class Win : MonoBehaviour
     public GameObject Heart;
     public GameObject Coin;
     public TMPro.TextMeshPro Text;
+    public AudioClip WinAudio;
+    public AudioClip NeedMoreAudio;
 
     public int NeedCoin = 5;
 
@@ -31,6 +33,11 @@ public class Win : MonoBehaviour
             Heart.SetActive(true);
             collision.GetComponent<SugaMoni>().Disable = true;
             FindObjectOfType<SceneTransitionManager>().NextStage();
+            AudioPool.PlaySound(transform.position, WinAudio);
+        }
+        else
+        {
+            AudioPool.PlaySound(transform.position, NeedMoreAudio);
         }
     }
 }

@@ -7,6 +7,8 @@ public class Spawn : MonoBehaviour
 {
     bool respawning = false;
 
+    public AudioClip Die;
+
     internal void Kill()
     {
         if (!respawning)
@@ -18,6 +20,7 @@ public class Spawn : MonoBehaviour
         respawning = true;
         var suga = FindObjectOfType<SugaMoni>();
         suga.GetComponent<SpriteRenderer>().flipY = true;
+        AudioPool.PlaySound(suga.transform.position, Die);
         suga.Disable = true;
         suga.VMomentum = 4f;
         yield return new WaitForSeconds(1f);

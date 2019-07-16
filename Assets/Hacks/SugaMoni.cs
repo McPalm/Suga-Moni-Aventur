@@ -12,6 +12,8 @@ public class SugaMoni : Mobile, IControllable
 
     public bool Disable { get; set; } = false;
 
+    public event System.Action OnJump;
+
     int airJump = 1;
 
     int cyoteTime = 5;
@@ -48,12 +50,14 @@ public class SugaMoni : Mobile, IControllable
         {
             VMomentum = jumpForce;
             InputToken.ClearJump();
+            OnJump();
         }
         else if(airJump > 0 && InputToken.Jump && (VMomentum <= 0f || VMomentum > 1f))
         {
             // the snippet works together with the input buffer to help you nail the air jump at the top of your arc
             VMomentum = jumpForce * .8f;
             InputToken.ClearJump();
+            OnJump();
             HMomentum = InputToken.Horizontal * speed;
             airJump--;
             UpdateFacing();

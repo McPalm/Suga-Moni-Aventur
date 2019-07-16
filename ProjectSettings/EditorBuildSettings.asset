@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage4.unity
     guid: 06cd1242db17985479da634e79e59bec
+  - enabled: 1
+    path: Assets/Scenes/PlatformingChallenge.unity
+    guid: d5584a70018cbb141b30b674272a9a72
+  - enabled: 1
+    path: Assets/Scenes/HELLCOME.unity
+    guid: 8bdc15f9d7159e243aa306e7f869e1f8
   m_configObjects: {}

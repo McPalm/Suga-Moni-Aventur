@@ -157,6 +157,8 @@ MonoBehaviour:
   Heart: {fileID: 3985448841838147835}
   Coin: {fileID: 3985448842280158762}
   Text: {fileID: 3985448842222010618}
+  WinAudio: {fileID: 8300000, guid: c8e9daa881a617741ab9a7f564bbe686, type: 3}
+  NeedMoreAudio: {fileID: 0}
   NeedCoin: 5
 --- !u!1 &3985448842222010616
 GameObject:
