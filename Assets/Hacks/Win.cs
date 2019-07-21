@@ -9,8 +9,11 @@ public class Win : MonoBehaviour
     public TMPro.TextMeshPro Text;
     public AudioClip WinAudio;
     public AudioClip NeedMoreAudio;
+    public AudioClip EnoughMoneyAudio;
 
     public int NeedCoin = 5;
+
+    bool playedThing = false;
 
     private void Update()
     {
@@ -19,10 +22,12 @@ public class Win : MonoBehaviour
             Coin.SetActive(true);
             Text.text = $"x{NeedCoin}";
         }
-        else
+        else if(!playedThing)
         {
             Coin.SetActive(false);
             Text.gameObject.SetActive(false);
+            AudioPool.PlaySound(Camera.main.transform.position, EnoughMoneyAudio);
+            playedThing = true;
         }
     }
 
