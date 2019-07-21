@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HELLCOME.unity
     guid: 8bdc15f9d7159e243aa306e7f869e1f8
+  - enabled: 1
+    path: Assets/Scenes/EndCreditz.unity
+    guid: dc8dd7781d826eb469917196c9dad8be
   m_configObjects: {}
